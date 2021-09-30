@@ -128,7 +128,11 @@
       </section>
 
       <section class="image-gallery">
-        <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="">
+        <picture>
+          <source srcset="./images/desktop/image-gallery-milkbottles-desktop.jpg" media="(min-width:500px)">
+          <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="">
+        </picture>
+        <!-- <img src="./images/mobile/image-gallery-milkbottles.jpg" alt=""> -->
         <img src="./images//mobile/image-gallery-orange.jpg" alt="">
         <img src="./images/mobile/image-gallery-cone.jpg" alt="">
         <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="">
@@ -153,5 +157,6 @@
       </div>
     </footer>
   </div>
+  <script src="./js/main.js"></script>
 </body>
 </html>
