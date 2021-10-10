@@ -1,0 +1,76 @@
+.main-header {
+  background-image: url("../images/desktop/image-header-desktop.jpg");
+}
+.navbar-button {
+  display: none;
+}
+.navbar-list {
+  display: flex;
+  position: static;
+  background: none;
+  width: auto;
+}
+.navbar-list::before {
+  display: none;
+}
+.navbar-list a {
+  color: white;
+}
+.navbar-list .call-to-action {
+  background-color: white;
+}
+
+/* services */
+
+.services-item {
+  grid-column-start: auto;
+  grid-column-end: auto;
+  text-align: center;
+  /* max-height: 500px; */
+}
+
+.graphic-design {
+  background-image: url("../images/desktop/image-graphic-design-desktop.jpg");
+}
+.photography {
+  background-image: url("../images/desktop/image-photography-desktop.jpg");
+}
+
+.image-gallery picture {
+  width: 25%;
+}
+
+.transform-brand-image {
+  grid-row-start: 0;
+  grid-row-end: 1;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.transform-brand-image img {
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navbar-list {
+  margin-right: 40px;
+}
+.navbar-list .call-to-action {
+  margin-top: 0;
+}
+.navbar-list li {
+  height: auto;
+  min-width: 100px;
+}
+
+.services-item__title{
+  text-align: left;
+}
+.services-item__description{
+  text-align: left;
+}
+
+.transform-brand, .stand-out-desc{
+  padding: 100px 120px;
+  max-height: 500px;
+  overflow: hidden;
+}
